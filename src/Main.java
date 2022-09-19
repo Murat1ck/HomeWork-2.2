@@ -7,5 +7,11 @@ public class Main {
 
 
         System.out.println(totalWeight);
+
+        var weightDifference = secondBoxer - firstBoxer;
+        System.out.println(weightDifference);
+
+        var remains = secondBoxer % firstBoxer;
+        System.out.println(remains);
     }
 }
